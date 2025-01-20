@@ -3,7 +3,7 @@
 export default function Article(props){
     return (
         <article className="ml-3 mr-2 my-2">
-            <div className="flex justify-between ">
+            <div className="flex justify-between">
                 {
                     props.technologies ?
                         /* If the article is a project or skills section,
@@ -31,7 +31,7 @@ export default function Article(props){
                 }
                 <p className="text-right">
                     {/* If the article has a date range, render it */}
-                    {props.dateRange ? <p>{props.dateRange}</p> : <></>}
+                    {props.dateRange ? <span className="block">{props.dateRange}</span> : <></>}
                     {/* If the article has a location, render it */}
                     {props.location ? <i>{props.location}</i> : <></>}
                 </p>

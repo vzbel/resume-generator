@@ -4,7 +4,7 @@
 
 export default function Header(props){
     return (
-        <header className="flex flex-col items-center">
+        <header className="flex flex-col items-center mb-7">
             {/* User's full name */}
             <h1 className="mb-2 text-5xl">{props.name}</h1>
             <ul className="flex flex-wrap justify-center sm:leading-4">
