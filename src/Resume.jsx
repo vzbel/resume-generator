@@ -107,7 +107,7 @@ export default function Resume(){
     };
 
     return (
-        <>
+        <main className="max-w-5xl mx-auto">
             {/* Header with user's name, contact info, and links*/}
             <Header 
                 name={user.name}
@@ -139,6 +139,6 @@ export default function Resume(){
                 title="Skills"
                 content={user.skills}
             />
-        </>
+        </main>
     );
 }
