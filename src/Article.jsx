@@ -10,7 +10,7 @@ export default function Article(props){
                         it must have a list of technologies used. Render them as a list next to the header */
                         <div className="flex">
                             <h3 className="font-semibold mr-2">{props.title}:</h3>
-                            <ul className="flex">
+                            <ul className="flex flex-wrap">
                                 {props.technologies.map((technology, i) => {
                                         return (
                                             // Don't show comma next to last list item
