@@ -7,7 +7,7 @@ export default function Section(props){
     return (
         <section>
             {/* Section title */}
-            <h2>{props.title.toUpperCase()}</h2>
+            <h2 className="text-lg">{props.title.toUpperCase()}</h2>
             <hr />
 
             {/* Map section content to individual articles */}
