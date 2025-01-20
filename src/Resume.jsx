@@ -107,7 +107,7 @@ export default function Resume(){
     };
 
     return (
-        <main className="max-w-5xl mx-auto py-12 sm:px-12">
+        <main className="max-w-5xl mx-auto">
             {/* Header with user's name, contact info, and links*/}
             <Header 
                 name={user.name}
