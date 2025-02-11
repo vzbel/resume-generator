@@ -7,8 +7,6 @@
 }
 
 *{
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
@@ -20,6 +18,14 @@ hr{
   border-color: black;
 }
 
+button{
+  background-color: grey;
+  color: white;
+}
+
+input{
+  border: 1px solid grey;
+}
 
 
 
