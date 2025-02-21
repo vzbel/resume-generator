@@ -1,4 +1,4 @@
-export default function ResumeForm(){
+export default function HeaderForm(){
     return (
         <form className="font-sans max-w-md mx-auto p-5 shadow-md">
             <div className="flex overflow-hidden border-b py-2 border-gray-400">

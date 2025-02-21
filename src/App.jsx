@@ -1,12 +1,14 @@
 import './App.css'
 import Resume from "./Resume"
-import ResumeForm from "./ResumeForm"
+import HeaderForm from "./HeaderForm"
+import EducationForm from "./EducationForm"
 
 function App() {
   return (
     <>
       {/* <Resume /> */}
-      <ResumeForm />
+      {/* <HeaderForm /> */}
+      <EducationForm />
     </>
   )
 }
